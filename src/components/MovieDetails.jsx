@@ -44,7 +44,7 @@ const MovieDetails = () => {
     
   return (
     <>
-    <div className='flex flex-row h-screen w-screen  '>
+    <div className='flex flex-row h-screen w-full  '>
       <div className=' w-60 p-3 text-center border-solid border-2 rounded-r-3xl  '>
         <div>
           {logo}

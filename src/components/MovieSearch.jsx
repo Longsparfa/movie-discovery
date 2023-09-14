@@ -51,14 +51,14 @@ const handleMovieClick = (movieId) => {
 }
 
 const logo = (
-  <div className='flex justify-center items-center'>
+  <div className='flex justify-center items-center mr-4'>
       <img src={tvImg} alt="tv" className='mr-2 h-8 w-8 ' />
       <h2 href="#" className='w-[15%] text-white text-sm mr-4'>MovieBox</h2>
   </div>
 );
 
 const navbar = (
-  <div className='flex justify-around items-center p-4 w-[100%] '>
+  <div className='flex justify-around items-center p-4 w-full '>
   {logo}
   
   <div className=''>
@@ -79,7 +79,7 @@ const navbar = (
 );
 
 const header = (
-  <div className={`bg-img w-screen h-[50vh] `}>
+  <div className={`bg-img w-full h-[50vh] `}>
         {navbar}
 
         <div className="flex flex-wrap w-[50%] md:w-[40%] m-10">
@@ -93,10 +93,10 @@ const header = (
   return (
     <>
       {isLoading && <Loader /> }
-      <div className=''>
+      <div className='w-full'>
         {header}
-        <h2 className='text-2xl mt-4'>Top 10 Movies</h2>
-        <ul className='grid grid-cols-3 '>
+        <h2 className='text-2xl my-4'>Top 10 Movies</h2>
+        <ul className='grid grid-cols-3 place-items-center '>
          {movies.map(movie => (
       
              <li key={movie.id} className='' onClick={() => handleMovieClick(movie.id)} >

@@ -1,8 +1,24 @@
-# React + Vite
+# Running the React + Vite Project Locally
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Below are clear instructions on how to run this project locally.
 
-Currently, two official plugins are available:
+# Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ensure you have the following installed before you begin:
+
+- Node.js
+- npm or yarn
+
+# Installation
+
+1. Clone the project repository to your local machine using:
+   git clone https://github.com/Longsparfa/movie-discovery.git
+
+2. Navigate to the project directory:
+   cd movie-discovery
+
+3. Install project dependencies using npm or yarn:
+   npm install
+
+4. Start the development server with:
+   npm run dev
