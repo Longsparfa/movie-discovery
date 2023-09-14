@@ -96,7 +96,7 @@ const header = (
       <div className='w-full'>
         {header}
         <h2 className='text-2xl my-4'>Top 10 Movies</h2>
-        <ul className='grid grid-cols-3 place-items-center '>
+        <ul className='grid grid-cols-3 lg:place-items-center '>
          {movies.map(movie => (
       
              <li key={movie.id} className='' onClick={() => handleMovieClick(movie.id)} >
