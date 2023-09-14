@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+
+
+.bg-img {
+  background-image: url(assets/Poster.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
